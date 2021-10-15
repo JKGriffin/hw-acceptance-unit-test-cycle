@@ -120,4 +120,4 @@ Feature: display list of movies sorted by different criteria
 
 7 scenarios ([31m3 failed[0m, [32m4 passed[0m)
 43 steps ([31m3 failed[0m, [36m10 skipped[0m, [32m30 passed[0m)
-0m0.954s
+0m0.949s
