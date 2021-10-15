@@ -28,3 +28,7 @@ Then /the director of "(.*)" should be "(.*)"/ do |e1, e2|
   movie = Movie.find_by(title: e1)
   expect(movie.director).to eql(e2)
 end
+
+Then /(.*) seed movies should exist/ do | n_seeds |
+  expect(Movie.count).to eq n_seeds.to_i
+end
